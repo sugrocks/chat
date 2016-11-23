@@ -47,8 +47,8 @@ function switchStyle(theme = false) {
 }
 
 function loadTheme() {
-	if (document.cookie.length != 0) {
-		currTheme = document.cookie.match('(^|;)[\s]*chattheme=([^;]*)')[2];
+	if (document.cookie.length != 0 && document.cookie.indexOf("chattheme") != -1) {
+		currTheme = document.cookie.match('chattheme=([^;]*)')[1];
 	}
 	switchStyle(currTheme);
 }

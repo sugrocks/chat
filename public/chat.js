@@ -28,7 +28,7 @@ $(function () {
     }
 
     // open connection
-    var connection = new WebSocket('ws://whooves.kdy.ch:1337');
+    var connection = new WebSocket('wss://chat.sug.rocks');
 
     connection.onopen = function () {
         // first we want users to enter get their id and color

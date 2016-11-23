@@ -28,6 +28,7 @@ div {
 	display: block;
 	float: left;
 	margin-top: 15px;
+    cursor: pointer;
 }
 .message { 
 	padding: 10px 5px;

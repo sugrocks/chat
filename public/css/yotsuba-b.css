@@ -1,0 +1,11 @@
+body {
+	background: transparent;
+}
+#content {
+	background: #EEF2FF url("fade-blue.png") top center repeat-x;
+	border-bottom: 1px solid #CCC; 
+}
+.message { 
+	background-color: #D6DAF0;
+	border: 1px solid #B7C5D9;
+}

@@ -1,0 +1,17 @@
+body {
+	background: rgb(61,79,93) none;
+	color: #444;
+}
+#content {
+	border-bottom: 1px solid #E6E6E6;
+	background-color: rgb(61,79,93);
+}
+.message { 
+	border: 1px solid #36D995;
+	background-color: rgb(61,79,93);
+	color: #fff;
+}
+#input {
+	background: rgb(61,79,93);
+	color: #fff;
+}

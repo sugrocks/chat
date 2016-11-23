@@ -1,0 +1,17 @@
+body {
+	background: #102b3b url("cn-su.jpg") top center no-repeat;
+	color: #000000;
+}
+#content {
+	border-bottom: 1px solid #fc616f;
+	margin-top: 100px;
+	height: calc(100vh - 160px);
+}
+.message { 
+	background-color: #ffffff;
+	border: 1px solid #458abe;
+}
+#input {
+	background: #ffffff;
+	color: #000000;
+}

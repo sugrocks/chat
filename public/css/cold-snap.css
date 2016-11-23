@@ -1,0 +1,15 @@
+body {
+	background: #ffffff none;
+	color: #232323;
+}
+#content {
+	border-bottom: 1px solid #ffffff;
+}
+.message { 
+	background-color: #fcfcfc;
+	border: 1px solid #ebebeb;
+}
+#input {
+	background: #ffffff;
+	color: #232323;
+}

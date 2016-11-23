@@ -1,0 +1,46 @@
+* {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 10pt;
+	padding: 0px;
+	margin: 0px;
+}
+p {
+	line-height: 18px;
+}
+div {
+	margin-left: auto;
+	margin-right: auto;
+}
+#content {
+	padding: 5px;
+	overflow-y: scroll;
+	height: calc(100vh - 60px);
+}
+#input {
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	padding: 5px;
+	width: calc(100% - 110px);
+}
+#status {
+	width: 85px;
+	display: block;
+	float: left;
+	margin-top: 15px;
+}
+.message { 
+	padding: 10px 5px;
+	margin: 5px 0;
+}
+.author {
+	color: white;
+	font-family: monospace;
+	font-size: 8pt;
+	border-radius: 5px;
+	padding: 2px 5px;
+}
+.message .text {
+	margin: 5px 0;
+	overflow: hidden;
+}

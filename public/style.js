@@ -5,10 +5,10 @@ function switchStyle(theme = false) {
 	var tags = document.getElementsByTagName("link");	
 
 	switch(currTheme) {
-		case "yotsuba":
-			newTheme = "yotsuba-b";
-			break;
 		case "yotsuba-b":
+			newTheme = "yotsuba";
+			break;
+		case "yotsuba":
 			newTheme = "cold-snap";
 			break;
 		case "cold-snap":
@@ -27,7 +27,10 @@ function switchStyle(theme = false) {
 			newTheme = "cn-su";
 			break;
 		case "cn-su":
-			newTheme = "yotsuba";
+			newTheme = "shitpost";
+			break;
+		case "shitpost":
+			newTheme = "yotsuba-b";
 			break;
 	}
 

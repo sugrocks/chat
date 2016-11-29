@@ -1,4 +1,4 @@
-var currTheme = "yotsuba-b";
+var currTheme = "tomorrow";
 
 function switchStyle(theme = false) {
 	var i;

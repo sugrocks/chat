@@ -58,7 +58,6 @@ $(function () {
             myBgColor = json.data.bgcolor;
 			myName = json.data.name
             status.text(myName).css({'color': myFgColor, 'background-color': myBgColor});
-            input.focus();
             // from now user can start sending messages
         } else if (json.type === 'history') { // entire message history
             // insert every single message to the chat window

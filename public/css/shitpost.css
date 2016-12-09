@@ -2,13 +2,13 @@ body {
 	background: transparent;
 }
 #content {
-	background: #EEF2FF url("fade-blue.png") top center repeat-x;
+	background: #D6DAF0;
 	border-bottom: 1px solid #CCC; 
 	height: calc(100vh - 160px);
 }
 .message { 
-	background-color: #D6DAF0;
-	border: 1px solid #B7C5D9;
+	background-color: #d6f0da;
+	border: 1px solid #35B214;
 }
 #shitpostpics {
 	display: block;

@@ -1,8 +1,7 @@
 body {
-	background: transparent;
+	background: #f0e0d6;
 }
 #content {
-	background: #FFFFEE url("fade.png") top center repeat-x;
 	border-bottom: 1px solid #800000;
 }
 .message { 

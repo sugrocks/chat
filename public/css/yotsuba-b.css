@@ -2,7 +2,7 @@ body {
 	background: transparent;
 }
 #content {
-	background: #EEF2FF url("fade-blue.png") top center repeat-x;
+	background: #D6DAF0;
 	border-bottom: 1px solid #CCC; 
 }
 .message { 

@@ -54,8 +54,10 @@ server.listen(webSocketsServerPort, function () {
 /**
  * Stuff
  */
+/* eslint-disable */
 String.prototype.reverse = function () { return this.split('').reverse().join('') }
 String.prototype.cleanIP = function () { return this.replace(/:|\.|ffff/g, '') }
+/* eslint-enable */
 
 /**
  * To create an unique color
@@ -92,7 +94,7 @@ function getUniqColor (string) {
 /**
  * WebSocket server
  */
-var wsServer = new webSocketServer({
+var wsServer = new webSocketServer({ // eslint-disable-line
   // WebSocket server is tied to a HTTP server. WebSocket request is just
   // an enhanced HTTP request. For more info http://tools.ietf.org/html/rfc6455#page-6
   httpServer: server

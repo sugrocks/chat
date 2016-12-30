@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "test": "./node_modules/.bin/standard"
+  },
   "dependencies": {
     "finalhandler": "^0.5.1",
     "serve-static": "^1.11.1",

@@ -1,0 +1,9 @@
+test:js:
+  image: node:latest
+  cache:
+    paths:
+    - node_modules/
+  before_script:
+   - npm install --only=dev
+  script:
+   - npm test

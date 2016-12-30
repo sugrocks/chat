@@ -135,10 +135,12 @@ jQuery(function () {
    * Add message to the chat window
    */
   function addMessage (author, message, fgcolor, bgcolor, dt) {
+    var month = dt.getMonth() + 1
+
     content.append('<div class="message"><span class="author" style="color:' +
       fgcolor + '; background-color:' + bgcolor + '">' + author +
       '</span><span class="time"> @ ' +
-      (dt.getMonth() < 10 ? '0' + dt.getMonth() : dt.getMonth()) + '/' +
+      (month < 10 ? '0' + month : month) + '/' +
       (dt.getDate() < 10 ? '0' + dt.getDate() : dt.getDate()) + '/' +
       dt.getFullYear() + '(' +
       getDayWeek(dt.getDay()) + ')' +
